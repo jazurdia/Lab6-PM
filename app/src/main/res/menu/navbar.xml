@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/homebtn"
+          android:title="home"
+          android:icon="@drawable/ic_baseline_home_24" />
+
+    <item android:id="@+id/searchbtn"
+            android:title="search"
+            android:icon="@drawable/ic_baseline_search_24" />
+
+    <item android:id="@+id/playlistbtn"
+            android:title="playlist"
+            android:icon="@drawable/ic_baseline_playlist_add_check_24" />
+
+</menu>

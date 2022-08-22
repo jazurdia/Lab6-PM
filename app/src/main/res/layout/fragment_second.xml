@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".secondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/searchSF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Seach"
+        android:textColor="@color/white"
+
+
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descripctionSF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Top Genres"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/searchSF"
+        app:layout_constraintTop_toBottomOf="@+id/searchSF" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/genero1"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+
+        android:background="#9C1616"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descripctionSF">
+
+        <TextView
+            android:id="@+id/textoGenero1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Rock"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/genero2"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="32dp"
+
+        android:background="#161D60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/genero1"
+
+    >
+
+        <TextView
+            android:id="@+id/textoGenero2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salsa"
+
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="21dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/genero3"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:background="@color/purple_200"
+
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/genero1"
+        app:layout_constraintTop_toBottomOf="@+id/genero1"
+
+        >
+
+        <TextView
+            android:id="@+id/textoGenero3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rap"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="30dp"
+
+
+
+
+
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/genero4"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:background="#167713"
+
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/genero3" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blues"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="33dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
