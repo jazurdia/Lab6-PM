@@ -34,7 +34,8 @@ class MainActivity : AppCompatActivity() {
         bottomNav.setOnItemSelectedListener {
             when(it.itemId){
                 R.id.homebtn -> setFragment(firstFragment())
-                //R.id.searchbtn -> setFragment(firstFragment())
+                R.id.searchbtn -> setFragment(secondFragment())
+
 
             }
         true
