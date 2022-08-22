@@ -8,8 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="colorUno">FF03DAC5</color>
-    <color name="colorDos">FF03DAC5</color>
-    <color name="colorTres">FF03DAC5</color>
+
+    <color name="one">#00FFFF</color>
+    <color name="two">#04B486</color>
+    <color name="three">#00BCD4</color>
 
 </resources>
